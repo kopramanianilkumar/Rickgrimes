@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="forgitFlow" doc:id="bc77e238-4ecb-4226-8f02-4dbcba417452" >
 		<http:listener doc:name="Listener" doc:id="87873f70-a203-4a4f-9e68-d766f0196b3b" config-ref="HTTP_Listener_config" path="/git"/>
 		<set-payload value='"hi ghjkl;"' doc:name="Set Payload" doc:id="9689c6fa-6f99-4ac0-8e4c-a5243083cdba" />
+		<logger level="INFO" doc:name="Logger" doc:id="064ae2a6-4167-4524-a38c-27197a142777" message="fgffhjklk;l;njmyk,l"/>
 	</flow>
 </mule>
